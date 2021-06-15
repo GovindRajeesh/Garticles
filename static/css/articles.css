@@ -1,0 +1,41 @@
+.article{
+    padding:20px;
+    border: 1px solid grey;
+    border-radius:5px;
+    min-height:12rem;
+    width:20rem;
+}
+
+.article-img{
+    width:18rem;
+    height:15rem
+}
+
+.cont-article{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 2px;
+    justify-content: center
+}
+
+article {
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 5px;
+    padding: 5px;
+    border-color: grey;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:788px) {
+    .articles{
+        grid-template-columns: auto;
+    }
+    
+}

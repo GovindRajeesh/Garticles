@@ -1,0 +1,34 @@
+.pagination{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style-type: none;
+    border:1px solid grey;
+    border-radius: 4px;
+}
+
+.pagination-item{
+    display:flex;
+    text-decoration: none;
+    padding:1rem;
+    align-items: center;
+    width:fit-content;
+    color: #1f1e1e;
+    border:none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pagination-item:even{
+    border-left:0;
+    border-right:0;
+}
+
+.pagination-item:hover{
+    background-color: rgb(38, 144, 236);
+    color:white;
+}
+
+
+.pagination-item-active{
+    background-color: rgb(38, 144, 236);
+    color:white;
+}

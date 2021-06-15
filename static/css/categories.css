@@ -1,0 +1,19 @@
+.cat{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#cecece;
+    padding: 20px;
+    width:10rem;
+    margin:auto;
+    display:block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color:#414242;
+}
+
+.cat:hover{
+    background-color: #ebebeb;
+    color: black;
+    border-color:lightwhite;
+}

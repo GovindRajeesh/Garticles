@@ -1,0 +1,4 @@
+php_flag display_errors on
+ErrorDocument 404 /404.php
+ErrorDocument 301 /301.php
+ErrorDocument 302 /301.php

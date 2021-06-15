@@ -1,0 +1,38 @@
+#results{
+    width:100%
+}
+
+.cat{
+    border: 1px solid grey;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    width:18rem;
+    border-radius: 2px;
+}
+
+.cat:focus,.cat:hover{
+    text-decoration: none;
+    background-color: rgb(186, 188, 190);
+    color: white;
+}
+
+.article{
+    border: 1px solid grey;
+    padding:20px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    width:18rem;
+    border-radius: 2px;
+    width:18rem;
+}
+
+.article>img{
+    border-radius: 11px;
+}
+
+.article>img:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+}

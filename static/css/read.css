@@ -1,0 +1,13 @@
+.article-img{
+    width:18rem;
+    height:15rem
+}
+
+.article-desc-cont{
+    width:30rem;
+}
+
+.paragraph::first-letter{
+    font-size: 2rem;
+    text-transform: capitalize;
+}

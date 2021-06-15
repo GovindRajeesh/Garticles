@@ -1,0 +1,65 @@
+:root{
+    --tab-width:18rem
+}
+
+.tab-btn{
+    border: 0px solid rgb(32, 32, 32);
+    float: left;
+    height: 50px;
+    width:calc(var(--tab-width)/2);
+    background-color: #f1f1f1;
+    color: rgb(44, 40, 40);
+    outline:none;
+    cursor: pointer;
+}
+
+.tab-btn:first-child{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.tab-btn:last-child{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.tab-btn-active,.tab-btn:hover{
+    background-color: #ccc;
+}
+
+.tab-btns{
+    display:flex;
+    justify-content: center;
+    min-width:var(--tab-width);
+    border:1px solid rgba(184, 184, 184, 0.5)
+}
+
+.tab{
+    border:1px solid rgba(184, 184, 184, 0.5);
+    border-top: none;
+    width:var(--tab-width);
+    padding:4px;
+    float: right;
+}
+
+input{
+    border-radius: 3px;
+    border-width:1px;
+    height: 30px;
+    width:75%;
+    outline: none !important;
+    text-indent:2px;
+border-color:rgba(184, 184, 184, 0.5)
+}
+
+input[type="submit"]{
+    border:none;
+    background-color: rgb(5, 121, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,input[type="submit"]:disabled{
+    background-color: rgb(93, 160, 236);
+    color: rgb(255, 255, 255);
+}
