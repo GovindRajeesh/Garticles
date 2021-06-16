@@ -73,8 +73,9 @@ switch ($action) {
                     if($_POST["type"]=="file"){
                         if(file_exists($_SERVER["DOCUMENT_ROOT"].$article["image"])){
                             unlink($_SERVER["DOCUMENT_ROOT"].$article["image"]);
-                            $img=fileUpload($_FILES["file"]);
+             
                         }
+               $img=fileUpload($_FILES["file"]);
                     }elseif($_POST["type"]=="address"){
                         $img=$_POST["img"];
                     }
