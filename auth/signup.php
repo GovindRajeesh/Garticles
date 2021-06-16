@@ -58,7 +58,7 @@ $form=array();
 
 for($i=0;$i<sizeof($fields);$i++){
     $field=$fields[$i];
-    $form[$field]=htmlspecialchars($_POST[$field]);
+    $form[$field]=stripslashes($_POST[$field]);
 }
 
 // Run signup method defined in users.inc.php
